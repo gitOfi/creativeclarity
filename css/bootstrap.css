@@ -4,6 +4,23 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+
+#navbar-primary .navbar-nav { 
+//  background: #ededed;
+  width: 100%;
+  text-align: center;
+  > li {
+    display: inline-block;
+    float: none;
+    > a {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  }
+}
+
+
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -6518,7 +6535,7 @@ button.close {
   display: block;
   margin-right: auto;
   margin-left: auto;
-}
+} 
 .pull-right {
   float: right !important;
 }
